@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDITAR AQUÍ: Título y descripción SEO -->
+    <title>Carlos | Servicios Técnicos y Tecnológicos - Electricidad, Redes y Domótica</title>
+    <meta name="description" content="Servicios profesionales de instalaciones eléctricas básicas, redes de fibra óptica, cámaras de seguridad CCTV, domótica y desarrollo web. Atención en Puebla, CDMX y Monterrey.">
+    <meta name="keywords" content="instalación de redes, CCTV, fibra óptica, electricista básico, domótica, desarrollo web, San Martín Texmelucan, Monterrey">
+    
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos de FontAwesome (gratuito) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <div class="container nav-container">
+            <!-- EDITAR AQUÍ: Nombre profesional -->
+            <a href="#inicio" class="logo">Carlos <span>TechServices</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#cotizar">Cotizar</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN 1: INICIO (HERO) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Soluciones técnicas, instalaciones inteligentes y tecnología para tu hogar y negocio</h1>
+            <p>Electricidad básica, plomería, seguridad, domótica, telecomunicaciones y desarrollo web. Servicios adaptados a tus necesidades con profesionalismo y garantía de trabajo bien hecho.</p>
+            <div class="hero-buttons">
+                <a href="#cotizar" class="btn btn-primary">Solicitar Cotización</a>
+                <!-- EDITAR AQUÍ: Número de WhatsApp (ya configurado con el 2206428387) -->
+                <a href="https://wa.me/522206428387?text=Hola,%20me%20interesa%20agendar%20una%20cita%20o%20solicitar%20información%20sobre%20tus%20servicios." target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: SOBRE MÍ -->
+    <section id="sobre-mi" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un profesional comprometido y versátil con formación universitaria como <strong>Ingeniero en Sistemas Computacionales</strong> y experiencia técnica comprobable en campo. Cuento con experiencia tanto en entornos urbanos como rurales, desempeñando trabajos que combinan habilidades técnicas, físicas y de atención al cliente.</p>
+                    <p>Me especializo en la instalación de redes de fibra óptica, sistemas eléctricos básicos, cámaras de videovigilancia (CCTV) y soporte técnico. Me caracterizo por mi adaptabilidad, responsabilidad y capacidad para resolver problemas en el momento, aplicando siempre protocolos de seguridad y trabajo en alturas con EPP completo.</p>
+                    <ul class="about-skills">
+                        <li><i class="fas fa-check-circle"></i> Trabajo en alturas y líneas de vida certificadas.</li>
+                        <li><i class="fas fa-check-circle"></i> Manejo de equipos OTDR, fusionadora y medidores de potencia.</li>
+                        <li><i class="fas fa-check-circle"></i> Programación (Python, Java, C) aplicada a automatización y bases de datos.</li>
+                        <li><i class="fas fa-check-circle"></i> Atención personalizada y resolución de problemas en tiempo real.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: SERVICIOS -->
+    <section id="servicios" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Mis Servicios Profesionales</h2>
+            <div class="services-grid">
+                
+                <!-- Servicio 1: Electricidad -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Instalaciones Eléctricas</h3>
+                    <p>Instalaciones y mantenimiento eléctrico básico residencial y comercial, con enfoque en la seguridad.</p>
+                    <ul class="service-list">
+                        <li>Reparaciones y mantenimiento preventivo.</li>
+                        <li>Diagnóstico de fallas y cortocircuitos.</li>
+                        <li>Instalación de luminarias, apagadores y contactos.</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Instalaciones Eléctricas')">Solicitar Cotización</button>
+                </div>
+
+                <!-- Servicio 2: Cámaras de Seguridad -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Cámaras y Videovigilancia</h3>
+                    <p>Protege tu patrimonio con sistemas de seguridad configurados a tu medida.</p>
+                    <ul class="service-list">
+                        <li>Instalación de cámaras CCTV y cableado estructurado.</li>
+                        <li>Configuración de grabadores DVR/NVR y acceso remoto.</li>
+                        <li>Mantenimiento, ajuste y diagnóstico de fallas.</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Cámaras de Seguridad')">Solicitar Cotización</button>
+                </div>
+
+                <!-- Servicio 3: Plomería -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-faucet"></i></div>
+                    <h3>Plomería Básica</h3>
+                    <!-- NOTA: Ajusta esta descripción según tu experiencia real en plomería -->
+                    <p>Soluciones prácticas para fugas y mantenimiento hidráulico en hogares y negocios.</p>
+                    <ul class="service-list">
+                        <li>Reparación de fugas de agua y conexiones.</li>
+                        <li>Instalación y cambio de llaves, grifos y accesorios.</li>
+                        <li>Diagnóstico de problemas de presión.</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Plomería Básica')">Solicitar Cotización</button>
+                </div>
+
+                <!-- Servicio 4: Domótica -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>Domótica y Automatización</h3>
+                    <p>Moderniza tu espacio. La domótica permite controlar dispositivos desde tu celular para mayor comodidad y eficiencia.</p>
+                    <ul class="service-list">
+                        <li>Configuración de enchufes, focos e interruptores inteligentes.</li>
+                        <li>Integración de sensores de movimiento y cámaras IP.</li>
+                        <li>Automatización básica mediante scripts (Python) y asistentes de voz.</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Domótica y Automatización')">Solicitar Cotización</button>
+                </div>
+
+                <!-- Servicio 5: Telecomunicaciones -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Telecomunicaciones y Soporte</h3>
+                    <p>Experiencia comprobada en redes de fibra óptica y equipos de telecomunicaciones (Red ALTAN, FTTH).</p>
+                    <ul class="service-list">
+                        <li>Instalación y mantenimiento de redes LAN/WiFi y fibra óptica.</li>
+                        <li>Empalme, conexión y pruebas con OTDR y fusionadora.</li>
+                        <li>Mantenimiento preventivo y correctivo en sitios de telecom.</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Telecomunicaciones y Soporte')">Solicitar Cotización</button>
+                </div>
+
+                <!-- Servicio 6: Desarrollo Web -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Diseño y Desarrollo Web</h3>
+                    <p>Páginas web profesionales, rápidas y adaptadas a dispositivos móviles para tu negocio.</p>
+                    <ul class="service-list">
+                        <li>Páginas de presentación y catálogos digitales.</li>
+                        <li>Sitios web responsivos con botones de contacto directo.</li>
+                        <li>Actualización, mantenimiento y conexión a bases de datos (MySQL).</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="prellenarWhatsApp('Diseño y Desarrollo Web')">Solicitar Cotización</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: PORTAFOLIO -->
+    <section id="portafolio" class="portfolio section-padding">
+        <div class="container">
+            <h2 class="section-title">Portafolio de Trabajos</h2>
+            <p class="section-subtitle">Ejemplos de proyectos realizados. (Reemplaza estas imágenes con fotos reales de tus trabajos).</p>
+            <div class="portfolio-grid">
+                <!-- EDITAR AQUÍ: Cambia 'src' por la ruta de tus fotos reales (ej. "img/trabajo1.jpg") -->
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=400&h=300&fit=crop" alt="Instalación de redes de fibra óptica">
+                    <div class="portfolio-overlay"><span>Redes de Fibra Óptica</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=400&h=300&fit=crop" alt="Instalación de cámaras CCTV">
+                    <div class="portfolio-overlay"><span>Sistemas de Videovigilancia</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1558002038-1091a166111c?w=400&h=300&fit=crop" alt="Mantenimiento eléctrico básico">
+                    <div class="portfolio-overlay"><span>Instalaciones Eléctricas</span></div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="Desarrollo de página web">
+                    <div class="portfolio-overlay"><span>Desarrollo Web</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5: FORMULARIO DE COTIZACIÓN -->
+    <section id="cotizar" class="quote section-padding">
+        <div class="container">
+            <h2 class="section-title">Solicita tu Cotización</h2>
+            <p class="section-subtitle">Completa el formulario y se abrirá WhatsApp con tu solicitud lista para enviar. <br><small>La cita no está confirmada hasta recibir mi respuesta por WhatsApp.</small></p>
+            
+            <form id="quoteForm" class="quote-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono de contacto *</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 222 123 4567">
+                </div>
+                <div class="form-group">
+                    <label for="servicio">Servicio que necesita *</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="Instalaciones Eléctricas">Instalaciones Eléctricas</option>
+                        <option value="Cámaras de Seguridad">Cámaras de Seguridad</option>
+                        <option value="Plomería Básica">Plomería Básica</option>
+                        <option value="Domótica y Automatización">Domótica y Automatización</option>
+                        <option value="Telecomunicaciones y Soporte">Telecomunicaciones y Soporte</option>
+                        <option value="Diseño y Desarrollo Web">Diseño y Desarrollo Web</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inmueble">Tipo de inmueble *</label>
+                    <select id="inmueble" name="inmueble" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Departamento">Departamento</option>
+                        <option value="Negocio/Local">Negocio o Local</option>
+                        <option value="Oficina">Oficina</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ubicacion">Ubicación del servicio (Colonia/Ciudad) *</label>
+                    <input type="text" id="ubicacion" name="ubicacion" required placeholder="Ej. San Martín Texmelucan, Puebla">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fecha">Fecha preferida</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="hora">Hora preferida</label>
+                        <input type="time" id="hora" name="hora">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción del problema o trabajo solicitado *</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" required placeholder="Describe brevemente qué necesitas..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fab fa-whatsapp"></i> Enviar Solicitud por WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 7: PREGUNTAS FRECUENTES -->
+    <section id="faq" class="faq section-padding">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">¿Qué zonas geográficas atiendes? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <!-- EDITAR AQUÍ: Zonas de atención -->
+                        <p>Principalmente atiendo en San Martín Texmelucan, Puebla, CDMX y Monterrey. Para otras ubicaciones, por favor contáctame para evaluar la viabilidad y costos de desplazamiento.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Cómo se confirma una cita o servicio? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Al enviar el formulario, se abrirá tu WhatsApp con un mensaje prellenado. La cita o cotización <strong>no está confirmada</strong> hasta que yo responda a ese mensaje y acordemos los detalles.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Ofreces garantía en los trabajos de electricidad y plomería? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Sí, todo trabajo realizado cuenta con garantía de funcionamiento sobre la mano de obra. Los materiales tienen la garantía del fabricante. Siempre se realiza un diagnóstico previo para ser transparente con los costos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Puedes automatizar cualquier dispositivo en mi hogar? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>La domótica depende de la compatibilidad de los equipos existentes y la infraestructura eléctrica (ej. neutro en apagadores). Evaluamos tu caso específico para recomendarte la mejor solución viable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 8: CONTACTO -->
+    <section id="contacto" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Contacto Directo</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <!-- EDITAR AQUÍ: Tu número -->
+                            <p><a href="https://wa.me/522206428387" target="_blank">+52 220 642 8387</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Correo Electrónico</h4>
+                            <!-- EDITAR AQUÍ: Tu correo -->
+                            <p><a href="mailto:carlosOtrabajo@gmail.com">carlosOtrabajo@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horario de Atención</h4>
+                            <!-- EDITAR AQUÍ: Horarios -->
+                            <p>Lunes a Sábado: 9:00 AM - 7:00 PM<br>Domingo: Solo urgencias previa cita</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <!-- EDITAR AQUÍ: Puedes reemplazar este iframe con el de tu ubicación real de Google Maps -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120300.0!2d-98.4!3d19.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEyJzAwLjAiTiA5OMKwMjQnMDAuMCJX!5e0!3m2!1ses!2smx!4v1600000000000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 9: PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Carlos <span>TechServices</span></h3>
+                    <p>Soluciones técnicas y tecnológicas con responsabilidad y profesionalismo.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#cotizar">Cotizar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4>Aviso de Privacidad</h4>
+                    <p>Los datos proporcionados en el formulario se utilizan únicamente para generar tu solicitud de cotización vía WhatsApp. No se almacenan en ninguna base de datos ni se comparten con terceros.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Carlos TechServices. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/522206428387?text=Hola,%20me%20interesa%20información%20sobre%20tus%20servicios." class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
